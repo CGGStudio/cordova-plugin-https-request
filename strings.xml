@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">HTTPS Requests Cordova Plugin</string>
+
+    <string name="unexpected_error">Unexpected error</string>
+    <string name="communication_error">There was an error in secure communication with the server</string>
+
+    <string name="cannot_validate_error">The server certificate could not be validated</string>
+    <string name="trusted_error">The server certificate is not trusted</string>
+    <string name="not_valid_error">The server certificate is invalid</string>
+    
+    <string name="loading">Loading&#8230;</string>
+</resources>
