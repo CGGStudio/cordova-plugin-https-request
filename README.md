@@ -1,4 +1,4 @@
-#Cordova plugin to make HTTPS requests for Android (REST/JSON)
+#HTTPS requests
 Cordova plugin to make HTTPS requests for Android (REST/JSON)
 
 #Important note
@@ -48,11 +48,7 @@ Function parameters:
 * `body`: Body params in JSON format.
 * `successCallback`: Type of request --> POST, GET, PUT, or DELETE.
 * `errorCallback`: Type of request --> POST, GET, PUT, or DELETE.
-* `show` and `hide`: 
-*     If show and hide are true, a progress dialog opens at the beginning and closes at the end of request.
-*     If show and hide are false, anything happens
-*     If show and not hide, a progress dialog opens at the beginning but not close at the end (useful if you need to make several requests and this is not the last request)
-*     If not show and hide, a progress dialog closes at the end but not opens at the beginning (useful if you need to make several requests and this is the last request)
+* `show` and `hide`: If show and hide are true, a progress dialog opens at the beginning and closes at the end of request. If show and hide are false, anything happens. If show and not hide, a progress dialog opens at the beginning but not close at the end (useful if you need to make several requests and this is not the last request). If not show and hide, a progress dialog closes at the end but not opens at the beginning (useful if you need to make several requests and this is the last request).
 
 Example:
 
@@ -69,5 +65,6 @@ Example:
               successCallback, errorCallback, true, true);
 
 ## License
-MIT License (2008). See http://opensource.org/licenses/alphabetical for full text.
+Apache License. See http://www.apache.org/licenses/LICENSE-2.0 for full text.
+
 Copyright 2015, Jose Antonio Nogales Rincón
