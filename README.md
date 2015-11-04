@@ -35,7 +35,7 @@ The request function is called as `queue`.
 
 ####sendRequest
 
- sendRequest(href, params, type, header, body successCallback, errorCallback, show, hide)
+    sendRequest(href, params, type, header, body successCallback, errorCallback, show, hide)
 
 Executes a REST web service request on background with the specified URL.
 
